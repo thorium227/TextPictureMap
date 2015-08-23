@@ -56,6 +56,7 @@ namespace TextPictureMap
 
         static void PrintHelp()
         {
+            Console.WriteLine("Usage:");
             Console.WriteLine(AppDomain.CurrentDomain.FriendlyName + " [mode|source path (encoding)|-o|ouput path]");
             Console.WriteLine("e.g.");
             Console.WriteLine(AppDomain.CurrentDomain.FriendlyName + @" img C:\tmp\hamlet.txt ascii -o C:\tmp\example.bmp");
